@@ -1,0 +1,23 @@
+const config = {
+  "name": "calol",
+  "aliases": ["thinh", "thính"],
+  "description": "",
+  "usage": "",
+  "cooldown": 3,
+  "permissions": [0, 1, 2],
+  "credits": "WaifuCat",
+  "extra": {}
+
+export function onCall({ message }){
+
+    import axios from ('axios');
+const res = await axios.get(`https://api.tuanthichdaobit.repl.co/text/thinh`);
+var thính = res.data.data
+export function onCall({ message }) {
+  const cadao = list[Math.floor(Math.random() * list.length)];
+  message.reply(` ${cadao}`);
+}
+export default {
+  config,
+  onCall
+}
