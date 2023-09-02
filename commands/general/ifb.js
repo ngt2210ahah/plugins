@@ -2,7 +2,7 @@ const config = {
   name: "ifb",
   description: "info account Facebook",
   usage: ["infofb","infofacebook"],
-  credits: "Xavia Team - Tphat - Duy Tuan(ndt22w) refactor // tks for Nguyen Lam (fca-zeid) for the api!",
+  credits: "Duy Tuan(ndt22w) refactor // tks for Nguyen Lam (fca-zeid) for the api!",
   cooldown: 5,
 };
 //địt nhau liên hệ tao
